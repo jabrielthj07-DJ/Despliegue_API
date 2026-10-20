@@ -1,36 +1,44 @@
-## Archivos y carpetas de Visual Studio
+
+# Visual Studio
 .vs/
 **/.vs/
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
- 
-## Compilación
-bin/
-obj/
+*.csproj.user
+
+# Compilación .NET
+**/bin/
+**/obj/
 [Bb]uild/
 [Ll]og/
- 
-## Paquetes
+
+# Paquetes
 *.nupkg
 *.snupkg
 packages/
 *.dll
 *.exe
- 
-## Configuración local
+
+# Archivos locales y temporales
 *.dbmdl
 *.bak
 *.log
 *.ldf
- 
-## Publicación
-publish/
-*.pubxml
-*.publishproj
- 
-## Otros
 *.tmp
 *.temp
 *.cache
+
+# Publicación
+publish/
+*.pubxml
+*.publishproj
+
+# Configuración local y secretos
+appsettings.Development.json
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
