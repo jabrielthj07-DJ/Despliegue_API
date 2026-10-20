@@ -1,0 +1,36 @@
+## Archivos y carpetas de Visual Studio
+.vs/
+**/.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+ 
+## Compilación
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+ 
+## Paquetes
+*.nupkg
+*.snupkg
+packages/
+*.dll
+*.exe
+ 
+## Configuración local
+*.dbmdl
+*.bak
+*.log
+*.ldf
+ 
+## Publicación
+publish/
+*.pubxml
+*.publishproj
+ 
+## Otros
+*.tmp
+*.temp
+*.cache
